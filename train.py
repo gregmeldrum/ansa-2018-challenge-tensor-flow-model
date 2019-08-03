@@ -19,7 +19,7 @@ def df_to_dataset(dataframe, shuffle=True, batch_size=32):
   ds = ds.batch(batch_size)
   return ds
 
-URL = 'file:///Users/gmeldrum/play/tensor_flow/training_data.csv'
+URL = 'file:///tensor_flow/training_data.csv'
 dataframe = pd.read_csv(URL)
 dataframe.head()
 
@@ -123,7 +123,7 @@ model.summary()
 model.save('actuary_model.h5')
 
 # Predict
-predict_url = 'file:///Users/gmeldrum/play/tensor_flow/test_data.csv'
+predict_url = 'file:///tensor_flow/test_data.csv'
 predict_dataframe = pd.read_csv(predict_url)
 predict_dataframe.head()
 
