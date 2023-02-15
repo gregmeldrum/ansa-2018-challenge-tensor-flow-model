@@ -19,5 +19,5 @@ tb-nightly==1.14.0a20190603
 tensorflow==2.7.2
 termcolor==1.1.0
 tf-estimator-nightly==1.14.0.dev2019060501
-Werkzeug==0.15.5
+Werkzeug==2.2.3
 wrapt==1.11.2
